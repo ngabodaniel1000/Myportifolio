@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Project() {
+function Skills() {
   return (
     <div className='min-h-screen bg-green-300 pt-[150px] lg:pt-[100px]'>
-      Project
+      Skill
     </div>
   )
 }
 
-export default Project
+export default Skills
