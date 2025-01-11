@@ -1,4 +1,8 @@
 import React from 'react'
+import Blog from "../assets/images/blog.png"
+import Hotel from "../assets/images/hotel.png"
+import Worldtech from "../assets/images/worldtech.png"
+import Movie from "../assets/images/movie.png"
 
 function Skills() {
   const projectoverview=[
@@ -29,24 +33,57 @@ function Skills() {
   ]
   const latestproject = [
     {
-      
-    }
+      name:"World technology",
+      description:"This is project that exhibit now World technology",
+      madewith:"React js and tailwind css",
+      imageurl:Worldtech,
+      ishosted:false,
+      githublink:"https://github.com/ngabodaniel1000/react-world-tech",
+      hostinglink:""
+    },
+    {
+      name:"Blog app",
+      description:"Fullstack blog web application that allow user to create,view,edit and comment on blog",
+      madewith:"Mern stack",
+      imageurl:Blog,
+      ishosted:false,
+      githublink:"https://github.com/ngabodaniel1000/Blog-app",
+      hostinglink:""
+    },
+    {
+      name:"Hotel website",
+      description:"This is real world hotel website developed in express backend & frontend",
+      madewith:"Node.js and express.js",
+      imageurl:Hotel,
+      ishosted:false,
+      githublink:"",
+      hostinglink:""
+    },
+    {
+      name:"Movie website",
+      description:"This is real world hotel website developed in express backend & frontend",
+      madewith:"Reactjs",
+      imageurl:Movie,
+      ishosted:true,
+      githublink:"",
+      hostinglink:"https://danwatchmovie.netlify.app/"
+    },
+  
   ]
   return (
-    <div className=' flex flex-col gap-5 lg:flex-row min-h-screen pt-[150px] lg:pt-[100px]'>
-      <div className='text-white  lg:ml-[200px] w-full h-[400px] lg:w-1/3 bg-[#333]'>
-      <h1 className='text-center pt-5 text-2xl font-bold'>Project Overview</h1>
-      <div className='ml-10 grid grid-cols-3'>
-      {projectoverview.map((project)=>
-      <div className='flex rounded-2xl flex-col w-[100px] lg:w-[150px] h-[100px] mt-10 bg-blue-950'>
-        <h2 className='p-4 text-center'>{project.name}</h2>
-        <h2 className='rounded-xl text-blue-600 font-extrabold text-center'>{project.number}</h2>
+    <div className='lg:ml-[200px] flex flex-col gap-5 lg:flex-row min-h-screen pt-[150px] lg:pt-[100px]'>
+
+      <div className='text-white lg:w-[80%] bg-[#333]'>
+      <h1 className='text-center pt-5 text-2xl font-bold'>Latest Project</h1>
+      <div className='lg:w-[900px] lg:ml-10 grid grid-cols-1 lg:grid-cols-2 gap-10'>
+     {latestproject.map((latest)=>
+     <div className='flex flex-col gap-5'>
+      <h2 className='p-4 text-2xl text-center'>{latest.name}</h2>
+       <img src={latest.imageurl} alt="Projectimageurl" className='w-[400px] h-[200px]'/>
+       <button className='bg-blue-600 rounded-xl p-2 w-[200px] ml-24'>View project</button>
+     </div>
+    )}
       </div>
-      )}
-      </div>
-      </div>
-      <div className='w-full lg:w-1/2 bg-green-900'>
-      <h1>Latest Project</h1>
       </div>
     </div>
   )

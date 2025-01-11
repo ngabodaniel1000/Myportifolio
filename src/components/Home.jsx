@@ -31,7 +31,7 @@ function Home() {
       </h2>
       <p className='mt-10'> a creative and detail-oriented web developer. I love bringing concepts to life with <br /> clean efficient code and visually appealing designs. Whether it's front-end interfaces <br />or back-end logic. My passion lies in solving complex problems through code</p>
       <div className='flex flex-col mt-4 gap-5 lg:flex-row text-2xl'>
-      <p><span className='text-blue-600 font-bold'><CountUp start={0} end={2} duration={5} suffix=""/>+</span> years expreience</p>
+      <p><span className='text-blue-600 font-bold'><CountUp start={0} end={2} duration={5} suffix=""/>+</span> years exprience</p>
       <p><span className='text-blue-600 font-bold'><CountUp start={0} end={20} duration={10}/>+</span> Successful project</p>
       </div>
       </div>
