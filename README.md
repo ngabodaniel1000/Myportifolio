@@ -27,7 +27,7 @@ As it provide an easy way to hire me for code development
 ## How to Run the Project? 💻
 
 ### Clone the Repository
-git clone [https://github.com/your-username/notifytune-plus.git](https://github.com/ngabodaniel1000/Myportifolio.git)
+git clone [https://github.com/ngabodaniel1000/Myportifolio.git](https://github.com/ngabodaniel1000/Myportifolio.git)
 cd myportifolio
 
 ### Install Dependencies
