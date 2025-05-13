@@ -42,7 +42,7 @@ function Testomonials() {
   return (
     <div className='min-h-screen pt-[150px] lg:pt-[100px]'>
       <h1 className='text-2xl text-white text-center font-bold'>Testimonials</h1>
-      <div className='w-[90%] ml-4 lg:ml-[100px] mt-10 grid grid-cols-1 md:grid-cols-3'>
+      <div className='w-[90%] ml-2 lg:ml-[100px] mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         {testimonials.map((testimonial)=>
         <div className="flex flex-col gap-5 text-white bg-[#333] rounded-xl  w-[400px] h-[300px] mt-4">
         <img src={testimonial.imageurl} alt="Images" className='w-20 h-20 rounded-full mt-2 ml-40'/>
