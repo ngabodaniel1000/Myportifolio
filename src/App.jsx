@@ -1,4 +1,5 @@
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
@@ -35,6 +36,9 @@ export default function App() {
       </div>
       <div id="contact">
         <Contact />
+      </div>
+      <div className="mt-10 text-center text-white">
+        <Footer />
       </div>
     </div>
   )
