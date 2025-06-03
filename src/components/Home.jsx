@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'react-typewriter-effect'
 import CountUp from 'react-countup';
-import Portofolioimage from "../assets/images/portfolio.JPG"
+import Portofolioimage from "../assets/images/Copy of a.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -84,7 +84,7 @@ function Home() {
               <button className="w-40 text-xl mt-7 bg-blue-600 hover:bg-blue-800 rounded-lg p-2"><a href="https://www.linkedin.com/in/ngabo-daniel-011118283/" target='_blank'>Hire me</a></button>
       </div>
       <div className='w-full pb-5 pl-16 mt-20 md:32 ml-5 lg:ml-10 lg:mt-48 lg:w-1/2'>
-      <img src={Portofolioimage} alt="my image" className='w-2/3 md:w-[250px] lg:w-1/2 rounded-full'/>
+      <img src={Portofolioimage} alt="my image" className='rounded-full'/>
       </div>
       
     </div>

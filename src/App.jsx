@@ -17,11 +17,20 @@ export default function App() {
           <li className="mr-4 lg:mr-5 mt-10 text-white"><a href="#testimonials">Testimonials</a></li>
           <li className="mr-4 lg:mr-5 mt-10 text-white"><a href="#contact">Contact</a></li>
           <li className="mr-5 mt-8 lg:mt-8 text-white">
-            <button className="absolute lg:relative top-0 left-[250px] md:left-[600px] lg:mt-0 lg:left-0 mt-7 bg-blue-600 hover:bg-blue-800 rounded-lg p-2">Download CV</button>
+            <button className="absolute lg:relative top-0 left-[250px] md:left-[600px] lg:mt-0 lg:left-0 mt-7 bg-blue-600 hover:bg-blue-800 rounded-lg p-2">
+              <a
+                href="/Ngabo_Resume.pdf"
+                download="Ngabo_Resume.pdf"
+                className="text-white"
+              >
+                Download Resume
+              </a>
+            </button>
+
           </li>
         </ul>
       </nav>
-      <hr className="text-yellow-300 lg:ml-[120px] mt-10 w-full lg:w-[80%] text-center"/>
+      <hr className="text-yellow-300 lg:ml-[120px] mt-10 w-full lg:w-[80%] text-center" />
       <div id="home">
         <Home />
       </div>
